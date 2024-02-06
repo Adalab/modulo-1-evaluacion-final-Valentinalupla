@@ -1,4 +1,5 @@
 .section_2 {
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     background-color: $color-title;
@@ -10,11 +11,14 @@
     }
     & h2 {
         font-size: 22px;
+        font-family: $font-text;
     }
     & p {
         font-size: 18px;
         color: $color-dark;
         margin-bottom: 30px;
+        font-family: $font-text;
+        
     }
 }
 
@@ -23,5 +27,6 @@
     font-size: 20px;
     border:  $color-light solid;
     border-radius: 20px;
-    padding: 5px 45px 5px 45px; 
+    padding: 7px 30px 7px 30px; 
+    font-family: $font-text;
  }
