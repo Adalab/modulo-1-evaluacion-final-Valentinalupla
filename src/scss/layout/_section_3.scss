@@ -2,10 +2,27 @@
     min-width: 320px;
     display: grid;
     background-color: #d9e4cc;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 18px 0px 30px;
+    
 }
 
 .circle_photo {
     
+    width: 100%;
+    padding: 15px;
+    & img {
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       box-shadow: -1px 5px 15px  grey;
+          
+}
+}
+.info_photo {
+
+    & span {
+        font-weight: bolder;
+
+    }
 }
