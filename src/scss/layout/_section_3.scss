@@ -2,15 +2,31 @@
     min-width: 320px;
     display: grid;
     background-color: #d9e4cc;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 320px;
+    grid-template-rows: 70px;
     padding: 18px 0px 30px;
-    
+    justify-items: center;
+}
+.school {
+    display: grid;
+   align-content: center;
+    font-family: $font-text;
+
+    & h3 {
+        padding: 5px 30px 30px 50px; 
+    }
+    & p {
+        color: $color-dark;
+
+    }
+   
 }
 
 .circle_photo {
-    
+   
     width: 100%;
     padding: 15px;
+
     & img {
        width: 100px;
        height: 100px;
@@ -20,9 +36,25 @@
 }
 }
 .info_photo {
-
+    display: grid;
     & span {
-        font-weight: bolder;
+        font-weight: bolder; 
+        padding-bottom: 10px;
 
+    }
+}
+
+.start_now {
+    
+    width: 180px;
+    height: 45px;
+    background-color: $color-light;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px; 
+
+    & a {
+        color: $color-title;
+        font-size: 18px;
+        font-family: $font-text;
     }
 }
