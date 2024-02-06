@@ -1,3 +1,12 @@
- header {
-    background-color: aquamarine;
- }
+.ico__menu {
+   display: flex;
+   width: 37px;
+   height: 37px;
+   background-color: #6c933e;
+   justify-content: center;
+   padding: 10px;
+}
+.ico__menu img {
+   width: 14px;
+   height: 14px;
+}
