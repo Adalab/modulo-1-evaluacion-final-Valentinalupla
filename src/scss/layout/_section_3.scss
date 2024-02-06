@@ -10,17 +10,22 @@
 .school {
     display: grid;
    align-content: center;
-    font-family: $font-text;
-
-    & h3 {
-        padding: 5px 30px 30px 50px; 
-    }
+    
     & p {
         color: $color-dark;
+        font-size: 12px;
+        font-family: $font-title;
 
+    }
+
+    & h3 {
+        padding: 5px 30px 0px 25px;
+        font-size: 20px;
+        font-family: $font-title;
     }
    
 }
+
 
 .circle_photo {
    
@@ -38,9 +43,10 @@
 .info_photo {
     display: grid;
     & span {
-        font-weight: bolder; 
-        padding-bottom: 10px;
-
+       font-family: $font-title;
+        font-size: 14px;
+        padding-bottom: 8px;
+        
     }
 }
 
