@@ -1,0 +1,27 @@
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-title;
+    padding: 34px 19px 30px 13px;
+    & span {
+        color: $color-light;
+        font-size: 14px;
+       font-family: $font-text; 
+    }
+    & h2 {
+        font-size: 22px;
+    }
+    & p {
+        font-size: 18px;
+        color: $color-dark;
+        margin-bottom: 30px;
+    }
+}
+
+.button_buy {
+    color: $color-light;
+    font-size: 20px;
+    border:  $color-light solid;
+    border-radius: 20px;
+    padding: 5px 45px 5px 45px; 
+ }
