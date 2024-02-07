@@ -6,24 +6,25 @@
     background-repeat: no-repeat;
     background-image: url(/images/cover.jpeg);
     background-position: right 20% bottom 50%;
-}
-.beginnings {
     color: $color-title;
-
-    & h1 {
-    text-align: center;
     font-family: $font-title;
-    font-size: 30px;
+    text-align: center;
+}
+
+.beginnings {
+    
+    width: 320px;
+    font-size: 20px;
     padding: 250px 10px 10px 10px;
     line-height: 50px;
-    }
-    & p {
-        text-align: center;
-        font-family: $font-text;
+}
+.beginnings_share {
+        
+       width: 320px;
        font-size: 16px;
        padding: 25px 25px 0px 25px;
-    }
 }
+
 
 .icon_down {
     display: flex;
@@ -36,13 +37,36 @@
     margin: 20px 140px 40px;
 
     & img {
-
         width: 25px;
     height: 18px;
     align-items: center;
     }
 }
 
-// @media (min-width: 768px) {
 
-// }
+@media (min-width: 768px) {
+   .section_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+   }
+   .beginnings {
+    
+    width: 688px;
+    font-size: 50px;
+    padding: 250px 10px 10px 10px;
+    line-height: 100px;
+}
+.beginnings_share {
+        
+    width: 320px;
+    font-size: 16px;
+    padding: 25px 25px 0px 25px;
+}
+}
+
+@media (min-width: 1280px) {
+   
+}
