@@ -1,3 +1,5 @@
+// MOBILE FIRST
+
 .section_2 {
     width: 100%;
     min-width: 320px;
@@ -24,7 +26,6 @@
         line-height: 30px;
         padding-bottom: 20px;
 
-        
     }
 }
 
@@ -36,15 +37,36 @@
     border-radius: 20px;
     padding: 7px 30px 7px 30px; 
     
-    
  }
+
+//  VERSIÓN TABLET
+
  @media (min-width: 768px) {
     .section_2 {
-       }
-   
+        
+        display: flex;
+        flex-direction: column;
+        padding: 40px 37px 65px 39px;
+        & span {
+            font-size: 16px; 
+        }
+        & h2 {
+            font-size: 32px;
+        }
+        & p {
+            font-size: 20px;
+            line-height: 30px;   
+        }
+    }
  }
 
+//  VERSIÓN DESKTOP
 
  @media (min-width: 1280px) {
-   
+
+    .section_2 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 160px 65px 160px;
+    }
  }
