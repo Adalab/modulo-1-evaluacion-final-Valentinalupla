@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 60px 100px 35px 100px;
+    padding: 20px 100px 35px 100px;
     background-color: $color-dark;
     color: $color-title;
     font-family: $font-text;
@@ -31,7 +31,8 @@
     background-color:white;
     border-radius: 50px;
     padding: 10px 6px 5px 10px;
-    margin: -80px 37px 40px;
+    transform: translateY(-40px);
+    margin-left: 40px;
 
 & img {
 width: 25px;
@@ -49,11 +50,22 @@ align-items: center;
       justify-content: center ;
       gap: 80px;  
   }
+
+  .footer_list_1 {
+    & a {
+      order: 2;
+    }
+    .footer_list_2 {
+      order: 3;
+    }
+  
+  }
   
   .icon_up {
     display: flex;
     align-items: center;
-    margin: -80px 260px 40px -370px;
+    transform: translateY(-80px) translateX(-280px);
+
 }
    }
 
